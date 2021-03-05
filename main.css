@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700;800;900&display=swap');
+
+
+@media screen and (max-width: 767px){
+    .form .info{
+        padding: 0 20px 0 50px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 992px){
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+}
+
+
+body{
+    font-family: 'Montserrat';
+    background-color: #000000;
+}
+
+/* Navbar color  */
+
+.fa-bars:before {
+    content: "\f0c9";
+    color: #ffffff;
+}
+
+/* End of Navbar color */
+
+
+
+.navbar .logo{
+    color: #fff !important;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.navbar .navbar-nav .nav-link {
+    font-size: 13px;
+    letter-spacing: .5px;
+
+}
+
+
+.navbar li a{
+    color: #fff !important; 
+}
+
+.navbar ul .nav-item:hover{
+    border-bottom: 1px solid #fff;
+}
+
+
+.background-image-element{
+    background-image: url(images/background-cover.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    height: 300px;
+    padding: 25%;
+}
+
+.background-image-element h1{
+    font-size: 22px;
+    line-height: 2em;
+    color: white;
+}
+
+.about-section{
+    padding: 50px 0 80px 0;
+    background-color: #000;
+}
+
+
+.hero .content{
+    padding: 0 50px 0 0;
+}
+
+.hero .content p{
+    padding: 20px 0 0 0;
+}
+
+.content{
+    line-height: 28px;
+    color: #ffffff;
+
+}
+
+.skills{
+    margin-top: 20px;
+}
+
+.skills .button-a{
+    margin-right: 25px ;
+}
+
+.library-section{
+    padding: 50px 0 80px 0;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Framework section */
+
+.tool-item{
+    margin-top: 50px;
+    padding: 0 60px 0 60px;
+    text-align: center;
+}
+
+.tool-item h6{
+   font-weight: bold;
+   margin-bottom: 30px;
+}
+
+.portfolio-section{
+    padding: 50px 0 80px 0; ;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.quick-filter{
+    margin-top: 30px ;
+    margin-bottom: 20px;
+}
+
+.quick-filter span{
+    padding: 0 20px 0 20px;
+    text-transform: uppercase;
+}
+
+
+.portfolio-section .items{
+    margin-top: 30px;
+}
+
+.contact-section{
+    padding: 50px 0 80px 0; ;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.contact-section input{
+    background-color: #151515;
+
+}
+
+.contact-section .form input, .contact{
+    width: 100%;
+    padding: 10px;
+    border: 0;
+    background: #151515;
+    border-radius: 5px;
+}
+
+
+.contact-section .comment #form_message{
+    height: 160px;
+    max-height: 160px;
+    max-width: 100%;
+    background: #151515;
+    border: 0;
+}
+
+#form_message{
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+}
+
+textarea{
+    resize: none;
+}
+
+
+.btn-bg {
+    background: #1c1c1c;
+    border-color: #1c1c1c;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.send-btn{
+    padding: 10px 30px;
+    border: 0px;
+    border-radius: 4px;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    float: right;
+}
+
+
+.contact-section .head-section p{
+    margin-top: 30px;
+    padding: 0 30px 0 30px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.form .info{
+    float: left;
+    margin-top: 10px;
+   
+}
+
+.form .info span{
+    margin-right: 50px;
+    
+}
+
+.form .info span a{
+    text-decoration: none;
+    color: #a0a0a0;
+    
+    
+}
+
+.form{
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+
+.footer-section{
+    padding: 50px 0 50px 0; ;
+    background-color: #000;
+    color: #ffffff;
+}
+
+.footer-section p{
+    padding: 0 20px 0 20px; 
+  
+}
+
+.footer-section .container a{
+    text-decoration: none;
+    color: #646262;
+    
+}
+
+
+.footer-section .container a:hover{
+   border-bottom: 0.5px solid #fff ;
+   padding-bottom: 2px ;
+}
+
+.social{
+    padding: 20px 50px;
+}
+
+.social a{
+    padding: 10px;
+    
+}
+
+.social a:hover{
+    text-decoration: none;
+    border-radius: 50px;
+}
+
+
+
